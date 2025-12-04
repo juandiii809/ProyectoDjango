@@ -13,3 +13,6 @@ def index(request):
 
 def home(request):
     return HttpResponse("hola :), este es el home o inicio")
+
+def casa(request):
+    return HttpResponse("hola esta es la casa")
